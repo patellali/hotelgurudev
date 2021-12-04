@@ -1,0 +1,75 @@
+.menu{
+
+font-size: 70px;
+font-family: Copperplate Gothic;
+font-style: bold;
+font-weight: bold;
+text-align: center;
+color:rgba(168, 144, 9, 0.945);
+
+LINE-HEIGHT:70%;
+
+
+}
+
+
+.offers{
+    margin-top: 10px;
+    
+    background-color:#8684e8;
+    font-size: 40px;
+    float:left;
+}
+.aboutus{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 700px;
+    width:48%;
+    background-color:rgb(8, 11, 36);
+    background-attachment: fixed;
+    font-size: 25px;
+    color:whitesmoke;
+    float:left;
+    overflow: auto;
+}
+.information{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 700px;
+    width:25%;
+    background-color:#8684e8;
+    font-size: 30px;
+    float:right;
+}
+
+
+
+.otherhotel{
+    height:100px;
+    width:100px;
+    
+    float:left;
+
+    margin-left: 5px;
+    margin-top:20px;
+    margin-bottom:20px;
+   
+    border-left: 5px double orangered;
+    border-radius:50px;
+    }
+    .homecss{
+        
+        font-size: 25px;
+        color:white;
+    }
+
+    .fieldset { 
+        display: block;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 2px groove (internal value);
+      }

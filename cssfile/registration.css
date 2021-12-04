@@ -1,0 +1,33 @@
+
+
+.logincss{
+    background-color: rgb(73, 67, 78);
+    font-size: 25px;
+    color:white;
+}
+.loginform{
+  
+    margin-top:50px;
+    font-size: 20px;
+    
+}
+.aboutcs{
+    font-size: 30px;
+    font-family: Footlight MT;
+    font-style: italic;
+    color:rgb(15, 240, 34);
+    white-space:nowrap;
+}
+@keyframes aboutkey{
+    0%   { background-image: url("pic/about1.jpg");}
+    25%  {background-image: url("pic/f3.jpg");}
+    50%  {background-image: url("pic/f4.jpg");}
+    75%  {background-image: url("pic/ots15.jpg");}
+    100% {background-image: url("pic/front.jpg");}
+}
+.aboutkeydiv{
+    animation-name: aboutkey;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+

@@ -1,0 +1,140 @@
+{%extends 'baseprofile.html'%}
+{%block usercontent%}
+<h1 style="color: bisque">your booking room history</h1>
+
+<div class="container " style="color: white;">
+    <table id="myTable" class=" table order-list">
+	<h3>THANKS FOR BOOKING ROOMS IN  SATYA THE GRAND HOTEL ****<br>
+A benchmark of 4-star standards of luxury and impeccable service, SATYA The Grand,
+ Kanpur offers a travel experience unlike any other in the city.</h3>
+    <thead>
+	<tr>
+	<td >user detail:</td>
+	</tr>
+	</thead>
+    <tbody style="color: white;">
+        <tr>
+            <td class="col-sm-4">
+             username:   
+            </td>
+            <td class="col-sm-4">
+             Aadhar number: 
+            </td>
+            <td class="col-sm-4">
+             Gender:   
+            </td>
+            
+        </tr>
+		 <tr>
+            <td class="col-sm-4">
+             Email Address:   
+            </td>
+            <td class="col-sm-4">
+             user address: 
+            </td>
+            <td class="col-sm-4">
+             CITY:   
+            </td>
+            
+        </tr>
+		<tr>
+            <td class="col-sm-4">
+             State Name:   
+            </td>
+            <td class="col-sm-4">
+             Country Name: 
+            </td>
+            <td class="col-sm-4">
+             PinCode:   
+            </td>
+            
+        </tr>
+		<tr>
+            <td class="col-sm-4">
+             Mobile Number:   
+            </td>
+            
+            
+        </tr>
+    </tbody>
+    </table>
+    {{persons}}
+    {{user}}
+	<table style="color: white;">
+	<thead>
+	<tr>
+	<td >ROOM detail:</td>
+	</tr>
+	</thead>
+    <tbody>
+        <tr>
+		 <td class="col-sm-4">
+             SL:   
+            </td>
+            <td class="col-sm-4">
+             ROOM NAME:   
+            </td>
+            <td class="col-sm-4">
+             ROOM TYPE: 
+            </td>
+           
+            
+        </tr>
+		 <tr>
+            <td class="col-sm-4">
+             NUMBER OF ROOMS:   
+            </td>
+            
+			 <td class="col-sm-4">
+             DATE OF STAY:   
+            </td>
+            <td class="col-sm-4">
+             CITY:   
+            </td>
+            
+        </tr>
+		<table>
+	<thead>
+	<tr>
+	<td >PERSON detail:</td>
+	</tr>
+	</thead>
+    <tbody>
+        <tr>
+		 <td class="col-sm-12">
+             booking personid:   
+            </td>
+        </tr>
+		 <tr>
+            <td class="col-sm-1">
+             SL:   
+            </td>
+            
+			 <td class="col-sm-4">
+             NAME:   
+            </td>
+            <td class="col-sm-1">
+             AGE:   
+            </td>
+			<td class="col-sm-2">
+             GENDER:   
+            </td>
+            <td class="col-sm-2">
+             Mobile Number:   
+            </td>
+            <td class="col-sm-2">
+             Aadhar Number:   
+            </td>
+        </tr>
+    <tfoot>
+        <tr>
+            <td colspan="5" style="text-align: left;">
+                <input type="button" class="btn btn-lg btn-block " id="addrow" value="Add Row" />
+            </td>
+        </tr>
+        <tr>
+        </tr>
+    </tfoot>
+</table>
+</div>
+{%endblock%}

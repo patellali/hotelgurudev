@@ -1,0 +1,88 @@
+{%extends 'baseprofile.html'%}
+{%block usercontent%}
+<div class="col-md">          
+       
+
+  <form action="/booking/" method="post">
+      {% csrf_token %}
+    <!-- User's Credentials  -->
+    <fieldset class="form-group">
+        
+            
+            
+           
+            <div class=" row">
+                <legend class="col-12  logincss">Room Person Details:</legend></div>
+                <div class=" row form-group logincss text-light ">
+                    <table id="myTable" class=" table order-list text-white ">
+                        <thead>
+                            <tr style="font-size: 20px;">
+                                <td>SL</td>
+                                <td>NAME</td>
+                                <td>AGE</td>
+                                <td>GENDER</td>
+                                <td>MOBILE</td>
+                                <td>AADHAR Number</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                {% for i in number  %}
+                                <tr>
+                                        
+                                    <td class="">
+                                        {{forloop.counter}}
+                                        <input hidden class="form-control" id="SL"  name="SL" value="{{forloop.counter}}" readonly>
+                                    </td>
+                                    <td class="col-2">
+                                        
+                                        <input type="text" class="form-control " id="username" placeholder="Enter name..." name="username">
+                                    </td>
+                                    <td class="col-2">
+                                        
+                                        <input type="text" name="age" placeholder="max 100 age" class="form-control">
+                                    </td>
+                                    <td class="col-2">
+                                       
+                                        <select name="gender" class="form-control">
+                                            <option>--select--</option>
+                                            <option value="male">MALE</option>
+                                            <option value="female">FEMALE</option>
+                                         </select>
+                                    </td>
+                                    <td class="col-2">
+                                        
+                                        <input type="number" name="mobile" placeholder="mobile number" class="form-control">
+                                    </td>
+                                    <td class="col-3">
+                                        <input type="number" name="aadharnumber" placeholder="Aadhar number" class="form-control">
+                                        
+                                      </td>
+                                   
+                                </tr>
+                                {% endfor %}
+                        </tbody>
+                        </table>
+                    
+                 
+                  
+                  <p class="col-2">
+                    <button type="submit" value="submit" class="btn btn-primary btn-customized">SUBMIT</button>   
+                  </p>
+            </div>
+            
+        </div>
+    </fieldset>
+    <!-- User's Preferences  -->
+    
+    <!-- Submit Button  -->
+   
+  </form>
+  
+  
+
+
+
+   
+</div>
+
+{%endblock%}

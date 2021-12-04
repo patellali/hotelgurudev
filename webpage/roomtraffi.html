@@ -1,0 +1,207 @@
+{% load static %}
+<html>
+<head>
+<title>SATYA Grand</title>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link href="{% static 'registration.css' %}" rel="stylesheet">
+<link href="{% static 'home.css'%}" rel="stylesheet">
+<link href="{% static 'bootstrap.min.css' %}" rel="stylesheet">
+<style>
+
+</style>
+
+</head>
+<body class="bg-dark ">
+  <div class=" row  "> 
+  <div class="col-md-12">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+    <a class="navbar-brand " style="font-size:20px; color:yellow; font-family:Copperplate Gothic"href="#"><p >SATYA</p>
+                          <sub>THE GRAND HOTEL</sub>
+                          <p>****</p></a>
+    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse " style="font-size: 20px;"id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active ">
+          <a class="nav-link text-white" href="/default">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="/aboutus">ABOUT US</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link text-white" href="/roomtraffi">ROOMS & TRAFFI</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link text-white" href="/login">BOOKING</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            SERVICES
+          </a>
+          <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+            <a class="dropdown-item text-muted" href="/rooms">ROOMS</a>
+            <a class="dropdown-item text-muted" href="/banquet">BANQUET & EVENT</a>
+        <a class="dropdown-item text-muted" href="/masalagrill">MASALA GRILL</a>
+        <a class="dropdown-item text-muted" href="/skybar">SKY BAR</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-muted" href="/theloop">THE LOOP</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="/feedback">FEEDBACK</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="/contact">CONTACT US</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  </div>
+  </div>
+        <div class="row ">
+            
+                <div class="col-md-1"> 
+                    
+                </div>
+                <div class="col-md-10">
+               
+                <div class="row loginform">
+                    <div class="col-md-1 text-center"></div>
+                        <div class="col-md-10 text-center text-light" style="font-size: 30px"> 
+                            <p>SATYA The Grand Hotel showcases 55 stylish rooms in 5 
+                              categories to fit all budgets .
+                               We offer a range of facilities and services which are equal
+                                to the best in the city of Kanpur.</p>
+
+                                <q style="font-size: 25px">Entire hotel is fully Wi-fi enabled'. 
+                                We serve Pure Vegetarian food and a wide choice of snacks in 
+                                Indian and Chinese cuisines. The provision of basic accommodation,
+                                 as in times past, , has largely been replaced by us with tastefully furnished rooms having modern 
+                                 facilities, including air conditioning or coolers, Mini Theater, flat screen or lcd television,
+                                  refrigerator, 
+                                modern bathrooms with bathtubs and showers and free Internet connectivity in all rooms.</q>
+                        </div>
+                      <div class="col-md-1 text-center"></div>
+                     
+                     
+            </div>   
+            <div class="row loginform">
+                <div class="col-md-2 text-center"></div>
+                    <div class="col-md-8 text-center" style="font-size: 25px"> 
+
+                        <table class="table table-bordered table-dark table-striped table-responsive table-hover" >
+                        
+                          <thead>
+                            <tr>
+                        
+                            <th>Room Name</th>
+                            <th>Single Price</th>
+                            <th>Double Price</th>
+                            <th>Extra Charge</th>
+                            <th>Service Charge</th>
+                            <th>Room Gallary</th>
+                            
+                            </tr>
+                          </thead>
+                          <tbody >
+                            <tr >
+                            <td>Maharaja Suite</td>
+                            <td>Rs. 4400/</td>
+                            <td>Rs. 4700/</td>
+                            <td>Rs. 500/</td>
+                            <td> 10%</td>
+                            <td rowspan="5" style="font-size: 30px"><a href="/roomgallery"><br>View</a></td>
+                            </tr>
+                            <tr>
+                            <td>Suite</td>
+                            <td>Rs. 3700/</td>
+                            <td>Rs. 4000/</td>
+                            <td>Rs. 400/</td>
+                            <td> 10%</td>
+                            
+                            </tr>
+                            <tr>
+                            <td>Super Deluxe</td>
+                            <td >Rs. 3200/</td>
+                            <td>Rs. 3500/</td>
+                            <td>Rs. 400/</td>
+                            <td> 10%</td>
+                            
+                            </tr>
+                            <tr>
+                                <td>A.C. Deluxe</td>
+                                <td >Rs. 2200/</td>
+                                <td>Rs. 2500/</td>
+                                <td>Rs. 400/</td>
+                                <td> 10%</td>
+                                
+                                </tr>
+                                <tr>
+                                    <td>Premium Rooms</td>
+                                    <td >Rs. 1100/</td>
+                                    <td>Rs. 1300/</td>
+                                    <td>Rs. 250/</td>
+                                    <td> 10%</td>
+                                    
+                                    </tr>
+                            
+                            
+                          </tbody>
+                        </table>
+</div>
+<div class="col-md-2 text-center"></div>
+</div>
+    
+
+    <hr>
+    <div class="row bg-dark text-light">
+            <div class="col-md-5"> <br><br><br>
+                    
+                            <a href="https://www.facebook.com" target="-blank">
+                                <img src="{% static 'pic/fb.png' %}"width="50px"height="50px"></a>
+                             <a style=margin-left:50px; href="https://twitter.com" target="-blank">
+                                <img src="{% static 'pic/twi.png' %}"width="50px"height="50px"></a>
+                                <a style=margin-left:50px; href="https://www.instagram.com/" target="-blank">
+                                    <img src="{% static 'pic/Instlogo.png' %}"width="50px"height="50px"></a>
+                                   <a  style=margin-left:50px; href="https://www.flipkart.com/" target="-blank">
+                                    <img src="{% static 'pic/flipkart.png' %}"width="50px"height="50px"></a>
+                                    <br><br>
+                    
+                                    <h5 >&copy 2019 SATYA Grand. All Rights Reserved 
+                                            Design & developed by BTPS http://btps.co.in/</h5>
+            </div> 
+                <div class="col-md-2"> 
+                    <img src="{% static 'pic/logoc1.png' %}" width="100%">
+                </div> 
+                <div class="col-md-5"> 
+                    <h2>Useful Links</h2>
+                    <ul>
+                      <li><a href="/default"target="">HOME</a></li>
+                  <li><a href="/aboutus">ABOUT US</a></li>	
+                  
+                  <li><a href="/login">BOOKING</a></li>
+                  <li><a href="">SERVICES</a></li>
+                  <li><a href="/feedback"target="">FEEDBACK</a></li>
+                  <li><a href="/contact">CONTACT</a></li>
+                  </ul>
+                  </div> 
+        </div> 
+            </div> 
+
+    
+            <div class="col-md-1"> 
+                    
+              </div>
+
+</div>
+</body>
+</html>

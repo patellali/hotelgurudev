@@ -1,0 +1,335 @@
+{% load static %}
+<html>
+<head>
+<title>SATYA Grand</title>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link href="{% static 'registration.css' %}" rel="stylesheet">
+<link href="{% static 'home.css'%}" rel="stylesheet">
+<link href="{% static 'bootstrap.min.css' %}" rel="stylesheet">
+<style>
+
+</style>
+
+</head>
+<body class="bg-dark ">
+    <div class=" row  "> 
+    <div class="col-md-12">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+      <a class="navbar-brand " style="font-size:20px; color:yellow; font-family:Copperplate Gothic"href="#"><p >SATYA</p>
+                            <sub>THE GRAND HOTEL</sub>
+                            <p>****</p></a>
+      <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse " style="font-size: 20px;"id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active ">
+            <a class="nav-link text-white" href="/default">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="/aboutus">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/roomtraffi">ROOMS & TRAFFI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/login">BOOKING</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SERVICES
+            </a>
+            <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+              <a class="dropdown-item text-muted" href="/rooms">ROOMS</a>
+              <a class="dropdown-item text-muted" href="/banquet">BANQUET & EVENT</a>
+              <a class="dropdown-item text-muted" href="/masalagrill">MASALA GRILL</a>
+              <a class="dropdown-item text-muted" href="/skybar">SKY BAR</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item text-muted" href="/theloop">THE LOOP</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/feedback">FEEDBACK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white " href="/contact">CONTACT US</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    </div>
+    </div>
+        
+
+                  
+                        
+                
+
+<div class="row ">
+            
+                
+    <div class="col-md-12" >
+<div id="carouselExampleIndicators" class="carousel slide w100" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+</ol>
+<div class="carousel-inner fieldset">
+<div class="carousel-item active">
+<img class="d-block w-100" src="{% static 'pic/f2.jpg' %}" style="height:800px;"alt="First slide">
+<div class="carousel-caption d-none d-md-block mytext ">
+
+<p style="font-size: 100px;font-family:Copperplate Gothic;color:orangered; margin-top: 300px">4 STAR HOTEL</p>
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="{% static 'the skybar/ots15.jpg' %}"style="height:800px;" alt="Second slide">
+<div class="carousel-caption d-none d-md-block mytext">
+
+<p style="font-size: 100px;font-family:Copperplate Gothic;color:orangered;">ROOF TOP BAR</p>
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="{% static 'msalagrill/mg6.jpg' %}" style="height:800px;"alt="Third slide">
+<div class="carousel-caption d-none d-md-block mytext">
+
+<p style="font-size: 100px;font-family:Copperplate Gothic;color:orangered;">RESTAURANT </p>
+</div> 
+</div>
+<div class="carousel-item">
+        <img class="d-block w-100" src="{% static 'event/bnqt11.jpg' %}" style="height:800px;"alt="fourth slide">
+        <div class="carousel-caption d-none d-md-block mytext">
+        
+        <p style="font-size: 100px;font-family:Copperplate Gothic;color:orangered;">BANQUET</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+                <img class="d-block w-100" src="{% static 'the loop/loop2.jpg' %}" style="height:800px;" alt="fivth slide">
+                <div class="carousel-caption d-none d-md-block mytext">
+                
+                <p style="font-size: 100px;font-family:Copperplate Gothic;color:orangered;">THE LOOP</p>
+                </div>
+                </div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+
+<script>
+$('.carousel').carousel({
+interval:3000
+})
+
+</script>
+</div>
+
+</div>
+
+<div class="row ">
+            
+    <div class="col-md-1"> 
+        
+    </div>
+    <div class="col-md-10">
+<div class="row loginform homecss ">
+    <div  class="col-md-3 bg-info"> 
+    
+    <h3><u>Free hotel services</u></h3>
+    <marquee direction = "up" scrolldelay="6s"behavior="scroll" hspace="2px"onmouseover="this.stop();" onmouseout="this.start();">
+        <ul type="circle" style="color:white;">
+        <li> Reception desk open 24 hours a day</li>
+        <li>The hotel has a no smoking policy</li>
+        <li>Free PC + internet in the lobby</li>
+        <li>Free Wi-Fi</li>
+        <li>Coeliac catering (necessary to order in advance)</li>
+        <li>Library</li>
+        <li>Fire alarm</li>
+        <li>Wheelchair access</li>
+        <li>Ironing board and iron available</li>
+        <li>Telephone alarm</li>
+        <li>Board games</li>
+        </ul>
+        
+    </marquee>
+    
+    
+    </div>
+
+    <div class="col-md-5 bg-light" style="color:green"> 
+    
+        <img src="{% static 'pic/p2.jpg' %}" alt=""width="100%" height="300px">
+        
+    <h1>Hotel SATYA The Grand</h1>
+    <p >A benchmark of 4-star standards of luxury and impeccable service, SATYA The Grand, Kanpur offers a
+ travel experience unlike any other in the city. Choose from the specially designed seasonal experiences,Spanning renowned landmarks, modern business hotels, and city centered places; SATYA The Grand hotel reinterprets
+ the tradition of hospitality in a refreshingly modern way to create unique experiences and lifelong memories.</p>
+    </div>
+    <div class="col-md-4 bg-secondary"> 
+            <h3><u>Family friendly facility</u></h3>
+            <marquee direction = "up" scrolldelay="6s"behavior="scroll" hspace="2px"onmouseover="this.stop();" onmouseout="this.start();">
+                <ul type="square" style="color:white;">
+                <li> Kids Club</li>
+                <li>Kids Corner(oytdoor playground)</li>
+                <li>Babysitting</li>
+                <li>Kid's Entertainment Serv</li>
+                <li>Coeliac catering (necessary to order in advance)</li>
+                <li>Library</li>
+                <li>Fire alarm</li>
+                <li>Wheelchair access</li>
+                <li>Ironing board and iron available</li>
+                <li>Telephone alarm</li>
+                <li>Board games</li>
+            <li><a href="{% static 'documents pdf/kanpur intro.pdf' %}">kanpur introduction pdf</a></li>
+                </ul>
+            </marquee>
+    </div>
+</div>
+
+<div class="row loginform  bg-dark">
+       
+    <div class="col-md-1 " > </div>
+    <div class="col-md-10 " > 
+        <a href="/rooms"><img src="{% static 'room/rooms.jpg' %}"  ></a>
+    </div>
+    <div class="col-md-1 " > </div>
+ </div>
+<hr>
+<div class="row loginform  bg-dark">
+        <div class="col-md-1 " > </div>
+    <div class="col-md-10"   > 
+        <a href="/banquet"><img src="{% static 'event/4.jpg' %}"  ></a>  
+    </div>
+    <div class="col-md-1 " > </div>
+    
+ </div>
+<hr>
+<div class="row loginform  bg-dark">
+        <div class="col-md-1 " > </div>
+    <div class="col-md-10"   > 
+        <a href="/masalagrill"><img src="{% static 'msalagrill/5.jpg' %}"  ></a>  
+    </div>
+    <div class="col-md-1 " > </div>
+    
+ </div>
+<hr>
+<div class="row loginform  bg-dark">
+        <div class="col-md-1 " > </div>
+    <div class="col-md-10"   > 
+        <a href="/skybar"><img src="{% static 'the skybar/ots.jpg' %}"  ></a>  
+    </div>
+    <div class="col-md-1 " > </div>
+    
+ </div>
+<hr>
+<div class="row loginform  bg-dark">
+        <div class="col-md-1 " > </div>
+    <div class="col-md-10"   > 
+        <a href="/theloop"><img src="{% static 'the loop/loop.jpg' %}"  ></a>  
+    </div>
+    <div class="col-md-1 " > </div>
+    
+ </div>
+<hr>
+<div class="row loginform font-weight-italic bg-light">
+    <div class="col-md-3 text-center " style="font-size: 50px;;color:black;"> 
+        <p><u>CAREERS</u></p>
+    </div>
+    <div class="col-md-6  " > 
+        <img src="{% static 'pic/career5.png' %}"  style="height: 600px;">
+    </div>
+    <div class="col-md-3 text-center " > 
+        
+    </div>
+ </div>
+ 
+<hr>
+<div class="row">
+        <div class="col-md-12" > 
+                <h2 style="font-size: 60px;color:white;" >Other Hotel In Kanpur:</h2><br>
+        </div>
+
+</div>
+<div class="row">
+    <div class=" col-md-3 ">
+    
+        <a  href="https://www.royalorchidhotels.com" target="-blank" style=" font-size: 20px;font-weight:bold;color:orangered;">
+        <img src="{% static 'pic/regenda.jpg' %}" class="otherhotel" >Regenta Central The Crystal Hotel KANPUR</a>
+    </div>
+    <div class=" col-md-3 ">
+        <a  href="https://vijayintercontinental.com/" target="-blank"style=" font-size: 20px;font-weight:bold;color:orangered;">
+        <img src="{% static 'pic/vijaylogo.jpg' %}" class="otherhotel" >Vijay Intercontinental hotel Kanpur</a>
+    </div>
+    <div  class=" col-md-3">
+         <a  href="http://www.hotelroyalcliff.com" target="-blank" style=" font-size: 20px;font-weight:bold;color:orangered;">
+
+            <img src="{% static 'pic/royal.jpg' %}" class="otherhotel" >Hotel Royal Cliff</a>
+    </div>
+    <div  class=" col-md-3">
+        <a  class="  rounded-circle" href="https://www.thehotellandmark.com/" target="-blank"style=" font-size: 20px;font-weight:bold;color:orangered;">
+            <img src="{% static 'pic/landmark-hotel.jpg' %}" class="otherhotel"> Land Mark Towers Kanpur</a>
+
+    </div>
+</div>
+
+
+   
+
+   
+<hr>
+<div class="row bg-dark text-light">
+        <div class="col-md-5"> <br><br><br>
+                
+                        <a href="https://www.facebook.com" target="-blank">
+                            <img src="{% static 'pic/fb.png' %}"width="50px"height="50px"></a>
+                         <a style=margin-left:50px; href="https://twitter.com" target="-blank">
+                            <img src="{% static 'pic/twi.png' %}"width="50px"height="50px"></a>
+                            <a style=margin-left:50px; href="https://www.instagram.com/" target="-blank">
+                                <img src="{% static 'pic/Instlogo.png' %}"width="50px"height="50px"></a>
+                               <a  style=margin-left:50px; href="https://www.flipkart.com/" target="-blank">
+                                <img src="{% static 'pic/flipkart.png' %}"width="50px"height="50px"></a>
+                                <br><br>
+                
+                                <h5 >&copy 2019 SATYA Grand. All Rights Reserved 
+                                        Design & developed by BTPS http://btps.co.in/</h5>
+        </div> 
+        <div class="col-md-2"> 
+                <img src="{% static 'pic/logoc1.png' %}" width="100%">
+            </div> 
+            <div class="col-md-5"> 
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a href="/default"target="">HOME</a></li>
+                <li><a href="/aboutus">ABOUT US</a></li>	
+                
+                <li><a href="/login">BOOKING</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="/feedback"target="">FEEDBACK</a></li>
+                <li><a href="/contact">CONTACT</a></li>
+                </ul>
+                </div> 
+                <div class="col-md-1"> 
+                    
+                </div>
+            </div>
+        </div>
+
+
+</body>
+</html>
